@@ -1,47 +1,52 @@
-*{
-    padding: 0px;
-    margin: 0px;
+* {
+  padding: 0px;
+  margin: 0px;
 }
 
-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100dvh;
-    gap: 20px;
-    flex-wrap: wrap;
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
-button{
-    padding: 20px 40px;
-    border: 1px solid black;
-    border-radius: 10px;
-    cursor: pointer;
+button {
+  padding: 20px 40px;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.26s;
+}
+button:hover{
+    scale: 0.9;
 }
 
-.red{
-    background-color: red;
-    color: white;
+.red {
+  background-color: red;
+  color: white;
 }
 
-.yellow{
-    background-color: yellow;
+.yellow {
+  background-color: yellow;
 }
 
-.green{
-    background-color: green;
-    color: white;
+.green {
+  background-color: green;
+  color: white;
 }
 
-.blue{
-    background-color: blue;
-    color: white;
+.blue {
+  background-color: blue;
+  color: white;
 }
 
-.orange{
-    background-color: orange;
+
+.orange {
+  background-color: orange;
 }
 
-.pink{
-    background-color: pink;
+.pink {
+  background-color: pink;
 }
