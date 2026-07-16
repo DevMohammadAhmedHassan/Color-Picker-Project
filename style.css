@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+button{
+    padding: 20px 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.red{
+    background-color: red;
+    color: white;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+    color: white;
+}
+
+.blue{
+    background-color: blue;
+    color: white;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.pink{
+    background-color: pink;
+}
